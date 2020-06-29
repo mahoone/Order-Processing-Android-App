@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "481140683411",
+    "firebase_url": "https://directwoodapp.firebaseio.com",
+    "project_id": "directwoodapp",
+    "storage_bucket": "directwoodapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481140683411:android:4381135eb5c6bacc",
+        "android_client_info": {
+          "package_name": "com.example.directwoodapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "481140683411-3gih4rdbapagucdr78oe65mfspdd8rfn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDk0LIPy8VSiw38u8mEMNKcbozCp4NEKeg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "481140683411-3gih4rdbapagucdr78oe65mfspdd8rfn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481140683411:android:4dce3d54fd6e4528629366",
+        "android_client_info": {
+          "package_name": "com.myorderboss.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "481140683411-5mkf2vs5rrb0o46b8k9pjpi3h1lcd7pm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.myorderboss.app",
+            "certificate_hash": "85ebd31334884d20cac021e608ad5c5dc3988a22"
+          }
+        },
+        {
+          "client_id": "481140683411-3gih4rdbapagucdr78oe65mfspdd8rfn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDk0LIPy8VSiw38u8mEMNKcbozCp4NEKeg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "481140683411-3gih4rdbapagucdr78oe65mfspdd8rfn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

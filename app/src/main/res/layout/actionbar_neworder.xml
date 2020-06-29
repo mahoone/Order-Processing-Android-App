@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/actionBarSize"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:id="@+id/action_bar_title"
+        android:text="New order"
+        android:layout_marginRight="?android:attr/actionBarSize"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:fontFamily="@font/open_sans_semibold"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

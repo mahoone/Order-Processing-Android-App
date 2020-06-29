@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.myorderboss.app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_new_mob"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:debuggable="false"
+        android:theme="@style/Theme.MaterialComponents.Light.Bridge">
+        <activity android:name="com.myorderboss.app.PopupWindow"></activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9204736054855157~5622200451" />
+
+        <activity
+            android:name="com.myorderboss.app.CompletedOrderDetails"
+            android:parentActivityName="com.myorderboss.app.OrderHistory"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.myorderboss.app.OrderHistory"
+            android:parentActivityName="com.myorderboss.app.SecondActivity" />
+        <activity
+            android:name="com.myorderboss.app.PopActivity"
+            android:theme="@style/AppTheme.PopUp" />
+        <activity
+            android:name="com.myorderboss.app.OrderDetailsActivity"
+            android:parentActivityName="com.myorderboss.app.SecondActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.myorderboss.app.NewOrderActivity"
+            android:parentActivityName="com.myorderboss.app.SecondActivity" />
+        <activity android:name="com.myorderboss.app.PasswordActivity" />
+        <activity
+            android:name="com.myorderboss.app.AddMaterial"
+            android:theme="@style/AppTheme.PopUp" />
+        <activity android:name="com.myorderboss.app.RegistrationActivity" />
+        <activity android:name="com.myorderboss.app.SecondActivity" />
+        <activity android:name="com.myorderboss.app.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
